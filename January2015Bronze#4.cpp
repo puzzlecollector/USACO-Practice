@@ -47,6 +47,7 @@ int main(){
 	int ans = -1;  
 	for (int i = 0; i < 20000; i++){
 		if (BessieCanReach[i] && ElsieCanReach[i]){
+			// this means that they can reach the destination field (village) at the same time. 
 			ans = i; 
 			break; 
 		}
