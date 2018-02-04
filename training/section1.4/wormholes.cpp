@@ -3,6 +3,7 @@ ID: mkim142
 LANG: C++
 TASK: wormhole 
 */
+// there is a very nice tutorial from Brian Dean available at : http://www.usaco.org/current/data/sol_wormhole.html
 #include <iostream>
 #include <fstream> 
 #include <cstdlib>
