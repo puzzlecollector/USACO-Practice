@@ -14,7 +14,7 @@ using namespace std;
 // (1)number of rooms in the castle 
 // (2)size of the largest room 
 // (3)size of the largest room created by removing one wall. 
-// (4)the single wall to remove to make the largest room possible.
+// (4)the single wall to remove to make the largest room possible. Note that we are printing the western-most or southern most room, and we are only considering knocking off walls that is to the North or East. 
 #define IOFAST() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);   
 const int INF = 987654321;   
 typedef pair<int,int> P;   
