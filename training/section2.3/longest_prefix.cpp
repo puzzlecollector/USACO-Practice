@@ -3,6 +3,7 @@ ID: mkim142
 LANG: C++
 TASK: prefix 
 */
+// dp[i] = Can S[0...i] be matched with the words in the dictionary?  
 #include <iostream>
 #include <fstream> 
 #include <cstdlib>
